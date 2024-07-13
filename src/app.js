@@ -5,7 +5,11 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-let who = ["The dog", "My grandma", "The mailman", "My bird"];
+
+
+window.onload = function() {
+  //write your code here
+  let who = ["The dog", "My grandma", "The mailman", "My bird"];
 
 let action = ["ate", "peed", "crushed", "broke"];
 
@@ -32,8 +36,5 @@ const excuse =
   randonNumberGenerator(what) +
   " " +
   randonNumberGenerator(when);
-
-window.onload = function() {
-  //write your code here
   document.getElementById("excuse").innerHTML = excuse;
 };
